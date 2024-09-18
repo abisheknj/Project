@@ -10,7 +10,10 @@ public class EmployeeServiceImpl implements EmployeeService{
 
 	@Override
 	public boolean save(Employee emp) {
-		return true;
+		if(emp!=null) {
+			return repo.save(emp);
+		}
+		return false;
 	}
 
 }
