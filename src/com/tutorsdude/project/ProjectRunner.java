@@ -12,13 +12,6 @@ public class ProjectRunner {
 		
 		service.save(new Employee());
 		
-		service.save(new Employee());
-		
-		
-		service.save(new Employee());
-		
-		
-		
 	}
 
 }
